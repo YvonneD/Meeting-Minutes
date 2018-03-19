@@ -6018,3 +6018,26 @@ textarea.form-control {
 .meeting-paper input{
   text-align: center;
 }
+#paper{
+  width: 100%;
+  height: 1000px;
+  border:2px solid #5563;
+  margin: 0 auto;
+  background: url(../img/paper-bg.jpg);
+  background-size: cover;
+  margin-top: 10px;
+  position: relative;
+}
+#record,#stop{
+  margin: 10px auto;
+}
+#output{
+  font: 2em;
+  font-weight: bold;
+  padding: 5em;
+}
+#submit{
+  position: absolute;
+  bottom: 50px;
+  right: 30px
+}
